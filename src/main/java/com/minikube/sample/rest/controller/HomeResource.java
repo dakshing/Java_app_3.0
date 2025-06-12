@@ -30,8 +30,6 @@ public class HomeResource {
         return new ResponseEntity<>(responseData, HttpStatus.OK);
     }
 
-    @Getter
-    @Setter
     public class ResponseData {
         private String name;
         private Integer id;
